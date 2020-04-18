@@ -1,0 +1,33 @@
+{
+  "name": "arrowship",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "test:e2e": "jest --runInBand",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^13.11.1",
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/parser": "^2.8.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-jest": "^23.0.4",
+    "eslint-plugin-json": "^2.0.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "jest": "^24.7.1",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.4.5"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
